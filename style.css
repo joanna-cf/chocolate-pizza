@@ -1,3 +1,123 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: auto;
+  border-bottom: 5px dashed black;
+  border-bottom-style: 
+}
+
+header > section {
+  float: left;
+  width: 470px;
+  margin-top: 20px;
+}
+
+header > section:first-child > img {
+  float: left;
+}
+
+header > section:first-child > ul {
+  float: left;
+}
+
+header > section:last-child {
+  float: right;
+}
+
+header > section:last-child > ul {
+  margin-left: 238px;
+}
+
+header > section:last-child > ul > li {
+  display: inline-block;
+}
+
+header > section:last-child > ul > li:nth-child(6) {
+  margin-right: 10px;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+main > h1 {
+  font-size: 2em;
+}
+
+main > section {
+  width: 480px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+main > section:nth-child(3) > * {
+  float: right;
+}
+
+main > section:nth-child(4) {
+  width: 960px;
+  overflow: hidden;
+}
+
+main > section:nth-child(4) > img {
+  width: 960px;
+}
+
+main > p:not(:last-child) {
+  text-indent: 30px;
+  margin-bottom: 20px;
+}
+
+main > section:last-child {
+  width: 960px;
+}
+
+article {
+  background-image: url('img/list-bg.png');
+  width: 960px;
+  height: 200px;
+  overflow: hidden;
+  padding: 30px 70px 30px 30px;
+}
+
+article > ul {
+  float: left;
+}
+
+article > ul:last-child {
+  margin-left: 400px;
+}
+
+main > img:last-child {
+  float: left;
+}
+
+main > section:last-child{
+  margin-top: 30px;
+  border-top: 5px dashed black;
+  overflow: hidden;
+}
+
+main > section:last-child > img {
+  float: left;
+}
+
+button {
+  float:right;
+}
+
+/* h2 {
+  float: left;
+  width: 600px;
+}
+
+main > section:last-child > ul > li > p {
+  float: left;
+} */
